@@ -34,7 +34,7 @@ const App = () => {
             <li key={t.id} className='flex justify-between items-center shadow-md rounded-[.625rem] p-[.625rem]'>
               <p>{t.text}</p>
               <div className='flex gap-[.625rem]'>
-                <button className="btn btn-warning" onClick={()=>{dispatch(editTodo(t.id)), toast.success("Tahrirlndi")}}>tahrirlash</button>
+                <button className="btn btn-warning" onClick={()=>{dispatch(editTodo(t.id)), toast.success("Tahrirlandi")}}>tahrirlash</button>
                 <button className="btn btn-error" onClick={()=>{dispatch(deleteTodo(t.id)), toast.success("O'chirildi")}}>o'chirish</button>
               </div>
             </li>
