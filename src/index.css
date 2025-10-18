@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer utilities{
+  .container{
+    @apply mx-auto max-w-[81.25rem] px-[.625rem]
+  }
+}
